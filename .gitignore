@@ -1,0 +1,12 @@
+﻿# IDE cache
+.vs/
+*.vsidx
+.vscode/
+# Build artifacts
+bin/
+obj/
+# User-specific
+*.user
+*.suo
+# Others
+*.DS_Store
