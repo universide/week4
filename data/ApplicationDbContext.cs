@@ -11,5 +11,7 @@ namespace WebApiPractice.Data
         }
 
         public DbSet<Product> Products { get; set; } = default!;
+
+        
     }
 }

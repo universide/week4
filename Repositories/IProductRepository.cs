@@ -1,9 +1,12 @@
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.VisualBasic;
+using WebApiPractice.Models;
 
 public interface IProductRepository
 {
-    // List<Product> GetAll();
-    // Product GetById(int id);
-    // void Add(Product product);
+    
+    void PostProducts(CreateDTO dto);
+    void DeleteProduct(int id);
+    IEnumerable<Product> GetProducts(int id);
 
 }
